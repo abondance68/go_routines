@@ -1,6 +1,5 @@
-## GoRoutines
-# Below are basic examples of using go_routines and channels to illustrate the concurrency model of 
-## the Go language . 
+# GoRoutines #
+## Below are basic examples of using go_routines and channels to illustrate the concurrency model of  the Go language . ##
 
 The file  `multiple.go`  creates a variable number of goroutines.
 As a Go program does not wait for  its go routines to end before exiting, 
