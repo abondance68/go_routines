@@ -1,5 +1,5 @@
 /*
-he main function starts two goroutines using the go keyword: one for the producer function and 
+The main function starts two goroutines using the go keyword: one for the producer function and 
 another for the consumer function. 
 The producer function writes to the done channel after it finishes sending five messages to the comm channel.
 The consumer function reads from the comm channel indefinitely
