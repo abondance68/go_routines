@@ -1,10 +1,10 @@
 # GoRoutines #
-## Below are basic examples of using go_routines and channels to illustrate the concurrency model of  the Go language . ##
+## Below are basic examples of using goroutines and channels to illustrate the concurrency model of  the Go language . ##
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 The file `producer_consumer.go` illustrates a simple producer/consumer pattern. \
-It implements 2 goRoutines and  2 channels. \
+It implements 2 goroutines and  2 channels. \
 The `producer` function send 5 `true` values to the `comm` channel. \
 The `consumer` function receives values from the `comm` channel in an infinite loop . \
 and prints a message for each received value. \
